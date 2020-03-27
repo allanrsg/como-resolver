@@ -1,0 +1,74 @@
+/* Estrutura do site
+------------------------------------ */
+body {
+	background: #262318;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#logo a {
+	text-transform: uppercase;
+	color: #a86e13;
+	display: block;
+}
+
+#wrapper {
+	height: 400px;
+    background: #cdc8b1;
+    padding: 30px 30px;
+}
+
+.wrapper-in {
+	margin: 0 10%;
+}
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4 {
+	margin-left: 30px;
+	color: #86521a;
+	text-transform: uppercase;
+	padding-bottom: 3px;
+	margin-bottom: 0px; 
+	font-size: 15px;
+}
+
+input, select {
+	text-align: center;
+	height: 20px;
+	width: 80px;
+	background: #fff;
+	font-size: 1em;
+}
+
+input.campo, select {
+	text-align: center;
+	border: 1px solid #ada484;
+	margin: 30px 30px 30px 10px;
+}
+
+input.botao {
+	min-width: 80px;
+	margin-top: 30px;
+	background:  #9b9271;
+	color: white;
+	width: 30%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+fieldset {
+	margin: 30px;
+	border: none;
+}
+
+
